@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Focus",
+    "description": "Set your focus",
+    "version": "0.0.1",
+    "icons":{"128":"icon-focus.png"},
+    "chrome_url_overrides":{"newtab":"index.html"},
+    "browser_action":{
+        "default_icon":"icon.png"
+    },
+    "background":{
+        "scripts": ["background.js"]
+      },
+    "permissions":["activeTab"]
+}
